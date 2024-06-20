@@ -1011,6 +1011,10 @@ footer {
 
 @media (max-width: 1069px) {
 
+  body{
+    overflow-x: hidden;
+  }
+
   .social-link {
     display: none;
   }
@@ -1038,6 +1042,10 @@ footer {
 }
 
 @media (max-width: 959px) {
+
+  body{
+    overflow-x: hidden;
+  }
 
   .slideshow-container {
     display: flex;
@@ -1242,9 +1250,19 @@ footer {
   .formimg{
     padding-left:0rem ;
   }
+
+  body{
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 618px){
+
+
+  body{
+    overflow-x: hidden;
+  }
+  
   .grid-container{
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     max-width:500px;
