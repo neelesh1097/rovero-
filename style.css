@@ -456,7 +456,8 @@ section {
 }
 
 .formimg {
-  height: 530px;
+  max-width: 100%;
+
 }
 
 .title1 {
@@ -539,7 +540,7 @@ section {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -90%);
+  transform: translate(-50%, -50%);
   text-align: center;
   width: 90%;
   max-width: 600px;
@@ -1006,14 +1007,40 @@ footer {
     font-size: 40px;
   }
 
+  .videoimg{
+    width:100%;
+  
+     max-width:100%;
+   }
+
+   .roomimg{
+    max-width:70%;
+   }
+
+   .roomcontainer{
+    max-width: 80%;
+   }
+
+   .content-center-room{
+    padding-left:0rem;
+    padding-right:0rem;
+
+   }
+
+   .formcontainer{
+    max-width: 100%;
+    width: 100%;
+  }
+ 
+
+  .roomimg{
+    max-width: 90%;
+  }
+
   
 }
 
 @media (max-width: 1069px) {
-
-  body{
-    overflow-x: hidden;
-  }
 
   .social-link {
     display: none;
@@ -1038,14 +1065,37 @@ footer {
     justify-content: center;
   }
  
+  .video-container{
+    max-width:100%;
+  
+  }
+
+  .formcontainer{
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .videoimg{
+    width:100%;
+  
+     max-width:100%;
+   }
+
+   
+
+   .roomcontainer{
+    max-width: 80%;
+   }
+
+   .content-center-room{
+    padding-left:0rem;
+    padding-right:0rem;
+
+   }
 
 }
 
-@media (max-width: 959px) {
-
-  body{
-    overflow-x: hidden;
-  }
+@media (max-width: 991px) {
 
   .slideshow-container {
     display: flex;
@@ -1164,10 +1214,7 @@ footer {
     
   }
 
-  .formimg{
-   padding-left:3.5rem;
-   
-  }
+  
 
   .formcontainer{
     
@@ -1241,8 +1288,23 @@ footer {
 .services{
   padding-right:0rem;
 }
+
+.formcontainer{
+  max-width: 100%;
+  width: 100%;
+}
+
+.videoimg{
+  width:100%;
+
+   max-width:100%;
+ }
+
  
 
+@media (max-width :) {
+  
+}
    
 }
 
@@ -1251,18 +1313,35 @@ footer {
     padding-left:0rem ;
   }
 
-  body{
-    overflow-x: hidden;
+  .formcontainer{
+    max-width: 100%;
+    width: 100%;
   }
+
+  .videoimg{
+    width:100%;
+  
+     max-width:100%;
+   }
+   .text-white1{
+    font-size: 28px;
+  }
+
+
+   
+   .text-white {
+    font-size: 28px;
+}
+.text-white-p {
+    font-size: 14px;
+}
 }
 
 @media (max-width: 618px){
 
-
-  body{
-    overflow-x: hidden;
+  .starter-container{
+    width:100%;
   }
-  
   .grid-container{
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     max-width:500px;
@@ -1279,4 +1358,32 @@ footer {
     .link-company a{
          font-size:12px ;
     }
+
+    .videoimg{
+     width:100%;
+   
+      max-width:100%;
+    }
+
+    .text-white {
+      font-size: 24px;
+  }
+  .text-white-p {
+      font-size: 12px;
+  }
+    body{
+      padding-left:10px;
+    }
+
+    .text-white1{
+      font-size: 24px;
+    }
+  
+  .formcontainer{
+    max-width: 100%;
+    width: 100%;
+  }
+  /* .section-content {
+      width: 90%;
+  } */
 }
